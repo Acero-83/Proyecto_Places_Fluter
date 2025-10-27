@@ -54,12 +54,12 @@ class Review extends StatelessWidget{
     //estrellas
     final estrella = Container(
       margin: EdgeInsets.only(
-          right: 5
+          right: 3
       ),
       child: Icon(
         Icons.star,
         color: Colors.amber,
-        size: 18,
+        size: 15,
       ),
     );
 
@@ -70,7 +70,7 @@ class Review extends StatelessWidget{
       child: Icon(
         Icons.star_border,
         color: Colors.black54,
-        size: 18,
+        size: 15,
       ),
     );
 //fila estrellas
